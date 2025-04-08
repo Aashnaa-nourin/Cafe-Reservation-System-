@@ -1,0 +1,10 @@
+/* Add your CSS to style the tables here */
+.table {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}

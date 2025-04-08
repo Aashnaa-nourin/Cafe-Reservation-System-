@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE FORMATION</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: start;
+            height: 50vh;
+        }
+
+        .table {
+            position: relative;
+            width: 250px;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+
+        .chair {
+            position: absolute;
+            background-color: #666;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .chair-1 { top: 30px; left: 30px; }
+        .chair-2 { top: 80px; right: 30px; }
+        .chair-3 { bottom: 40px; left: 50%; transform: translateX(-50%); }
+        .chair-4 { top: 80px; left: 30px; }
+        .chair-5 { top: 30px; right: 30px; }
+        .chair-6 { bottom: 150px; right: 50%; transform: translateX(+50%); }
+
+        .table-label {
+            padding: 0px;
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+  
+    <div>
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <!-- <div class="chair chair-2"></div> -->
+        <!-- <div class="chair chair-4"></div> -->
+        <div class="chair chair-5"></div>
+        <div class="table-label">A 1</div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <div class="chair chair-2"></div>
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+        <div class="table-label">A 2</div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <!-- <div class="chair chair-2"></div>   -->
+        <!-- <div class="chair chair-4"></div> -->
+        <div class="chair chair-5"></div><br>
+        <div class="table-label">A 3</div>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+   
+    </div>
+   
+</div>
+<div>
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <div class="chair chair-2"></div>
+       
+         <div class="chair chair-4"></div>
+         <div class="chair chair-5"></div>
+       
+        <div class="table-label">B 1</div>
+    </div>&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <div class="chair chair-2"></div>
+        <div class="chair chair-3"></div>
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+        <div class="table-label">B 2</div>
+    </div>&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+       <div class="chair chair-2"></div>
+        <div class="chair chair-3"></div>
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+        <div class="chair chair-6"></div>
+        <div class="table-label">B 3</div>
+    </div>
+  
+</div>
+<div>
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <div class="chair chair-2"></div>
+    
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+      
+        <div class="table-label">C 1</div>
+    </div>&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+       <div class="chair chair-2"></div>
+        <div class="chair chair-3"></div>
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+        <div class="chair chair-6"></div>
+        <div class="table-label">C 2</div>
+    </div>&nbsp;&nbsp;
+    <div class="table">
+        <div class="chair chair-1"></div>
+        <div class="chair chair-2"></div>
+    
+        <div class="chair chair-4"></div>
+        <div class="chair chair-5"></div>
+      
+        <div class="table-label">C 3</div>
+    </div>&nbsp;&nbsp;
+</div>
+</body>
+</html>

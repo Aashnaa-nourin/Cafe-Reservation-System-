@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #030202;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    /* width: 50%; */
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight:bolder;
+    
+  
+    /* display: flex; */
+    
+    gap: 100px;
+    padding-left: 50px;
+}
+
+/* Menu item styles */
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu li {
+    margin: 10px;
+    width: 30%;
+}
+
+/* Cart styles */
+.cart {
+    padding: 20px;
+    text-align: center;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* Order button styles */
+.order-button {
+    background-color: #0c0606;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+}
+
+#hero_bt
+{
+    margin-top: 10px;
+    padding:30px;
+    width:200px;
+    background-color: rgb(23, 3, 41);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 40px;
+}
+/* Footer styles */
+footer {
+    background-color: #050303;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
